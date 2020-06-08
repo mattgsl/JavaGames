@@ -25,6 +25,6 @@ class GuessTheNumber {
 			System.out.println("You " + ((guess == number) ? "WIN!" : "Lose: " + number));
 			System.out.println("Repeat game? Yes - 1, No - 0");
 
-			} while (scanner.nextInt() == 1);
+		} while (scanner.nextInt() == 1);
 	}
 }
